@@ -656,10 +656,197 @@ nav{
 .cat-count, .cat-count span{
     color: #999999;
 }
+/* banner section */
+.home-banner-section{
+    padding: 20px 0;
+}
+.home-banner-section img{
+    width: 1110px;
+    object-fit: cover;
+}
+/* nest-section */
+.nest-section{
+    padding: 80px 0;
+}
+.nest-section .container{
+    overflow-x: hidden;
+}
+.nest-section h1{
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-size: 35px;
+    color: #000;
+    text-transform: capitalize;
+    margin-bottom: 50px;
+    position: relative;
+    z-index: 99;
+    background-color: #fff;
+    display: inline-block;
+}
+.nest-section h1::before{
+    position: absolute;
+    content: "";
+    width: 1200px;
+    top: 54%;
+    transform: translateY(-50%);
+    background-color: #DDDDDD;
+    height: 1px;
+    left: 100%;
+    z-index: 55;
+    margin-left: 30px;
+}
+.home-recent-img{
+    border-radius: 15px;
+    width: 100%;
+    max-height: 600px;
+    object-fit: cover;
+}
+.home-colorfull-tag{
+    display: inline-block;
+    padding: 2px 18px;
+    color: #000;
+    background-color: #FBAF5D;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 14px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+.home-colorfull-tag+.home-colorfull-tag{
+    margin-left: 10px;
+}
+.home-post-title{
+    font-family:"Playfair Display", serif;
+    font-size: 35px;
+    font-weight: 400;
+    color: #000;
+    line-height: 50px;
+}
+.home-post-title:hover{
+    color: #FBAF5D;
+}
+.home-post-date{
+    color: #6a6868;
+}
+.home-post-socials i{
+    color: #6a6868;
+    font-size: 14px;
+}
+.home-post-socials a+a{
+    margin-left: 10px;
+}
+.nest-section .content-info{
+    padding: 30px 0;
+}
+.home-post-des{
+    line-height: 28px;
+    color: #444444;
+    margin-top: 20px;
+}
+/* video section */
+.home-video-inner{
+    min-height: 650px;
+    background-position: center;
+    background-size: cover;
+    padding: 30px;
+    position: relative;
+}
+.home-video-inner img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+.home-video-inner .home-colorfull-tag{
+    margin: 0 !important;
+    z-index: 99;
+}
+.home-video-title-wraper{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #fff;
+    width: 80%;
+    padding: 40px 50px;
+}
+.home-video-play-wraper{
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #fff;
+    padding: 40px;
+    font-size: 60px;
+    line-height: 0;
+}
+.home-video-play-wraper i{
+    transition: .6s;    
+}
+.home-video-play-wraper:hover>i{
+    transform: rotate(120deg);
+}
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+/* *********************  OWL NAVS AND BUTTONS CSS  ************************ */
+.owl-carousel{
+    position: relative;
+}
+.carousel-section .owl-prev{
+    font-size: 150px !important;
+    color: red !important;
+    position: absolute;
+    top: 40%;
+    transform: translateY(-40%);
+    left: 50px;
+    display: none;
+}
+.carousel-section .owl-next{
+    font-size: 150px !important;
+    color: red !important;
+    position: absolute;
+    top: 40%;
+    transform: translateY(-40%);
+    right: 50px;
+    display: none;
+}
+
+.carousel-section button:focus{
+    outline: none;
+    border: none;
+}
+
+.carousel-section .owl-dots button {
+    width: 10px;
+    height: 10px;
+    background-color: #DDDDDD !important;
+    margin-right: 10px;
+}
+.carousel-section .owl-dots .active{
+    background-color: #FBAF5D !important;
+}
+.carousel-section .owl-dots{
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+}
+/* *********************  OWL NAVS AND BUTTONS CSS END HERE ************************ */
 
 
 

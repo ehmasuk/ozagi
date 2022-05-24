@@ -640,8 +640,12 @@ nav{
     margin-left: 14%;
     padding-bottom: 30px;
 }
+.cat-section .container{
+    width: 100%;
+    max-width: 100%;
+}
 .cat-img{
-    width: 100px;
+    width: 110px;
     max-width: 100%;
     border-radius: 15px;
     height: 70px;

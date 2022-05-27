@@ -843,6 +843,7 @@ nav{
 
 
 
+
 /* meadia query */
 @media only screen and (max-width: 768px) {
     /* post page */
@@ -877,5 +878,8 @@ nav{
     }
     .home-video-inner{
         min-height: 400px;
+    }
+    .nest-section {
+        padding: 30px 0;
     }
 }

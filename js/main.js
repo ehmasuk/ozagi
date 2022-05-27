@@ -40,21 +40,21 @@ $(document).ready(function(){
 // magnefic popup
 
     // image ar jonno
-    // $('.image-gallery-one').magnificPopup({
-    //     type: 'image',
-    //         gallery:{
-    //             enabled:true
-    //         }
+    $('.image-gallery-one').magnificPopup({
+        type: 'image',
+            gallery:{
+                enabled:true
+            }
         
-    // });
+    });
     // iframe ar jonno
-    // $('.single-video').magnificPopup({
-    //     type: 'iframe',
-    //         gallery:{
-    //             enabled:true
-    //         }
+    $('.single-video').magnificPopup({
+        type: 'iframe',
+            gallery:{
+                enabled:true
+            }
         
-    // });
+    });
 
 
 // animate js init

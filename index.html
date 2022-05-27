@@ -11,20 +11,43 @@
 <meta name="Description" content="Enter your description here"/>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-<!-- main style sheet -->
-<link rel="stylesheet" href="css/style.css">
 <!-- google fonts -->
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&family=Playfair+Display:wght@400;500;600;700;800;900&family=Noto+Sans+JP:wght@400;500;700;900&family=Source+Sans+Pro:wght@200;300;400;600&family=Oswald:wght@200;300;400;500;700&display=swap" rel="stylesheet">
+<!-- plugins -->
+<link rel="stylesheet" href="css/plugins.css">
 <!-- owl carousel -->
 <link rel="stylesheet" href="css/owl.carousel.min.css">
 <link rel="stylesheet" href="css/owl.theme.default.min.css">
+<!-- wow js css -->
+<link rel="stylesheet" href="css/animate.css">
 <!-- magnefic popup -->
 <!-- <link rel="stylesheet" href="css/magnific-popup.css"> -->
+<!-- main style sheet -->
+<link rel="stylesheet" href="css/style.css">
 
 
 <title> Escuela de Escritura Creativa – Escuela de Escritura Creativa</title>
 </head>
 <body>
+
+
+<!-- preloader -->
+<section class="preloader-section">
+    <div class="gooey">
+        <span class="dot"></span>
+        <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
+        </div>
+    </div>
+</section>
+<!-- preloader ends -->
+
+
+
+
+
 
 
 <!-- header top -->
@@ -116,30 +139,25 @@
         </ul>
     <form class="form-inline my-2 my-lg-0">
         <input class="form-control srch-int" type="search" placeholder="Search..." aria-label="Search">
-        <button class="btn srch-btn" type="submit"><i style="transform: scaleX(-1);" class="fas fa-search"></i></button>
+        <button onclick="onClickBig()" class="btn srch-btn" type="submit"><i style="transform: scaleX(-1);" class="fas fa-search"></i></button>
     </form>
     </div>
 </nav>
 
 
 <!-- hero section -->
-<section class="home-hero-secion">
+<section class="home-hero-secion ">
     <div class="container">
         <p>novela</p>
-        <h1>It is a long established fact that a reader will be distracted.</h1>
-        <button class="btn p-0"><a href="#">Read more</a></button>
+        <h1 class="wow slideInLeft" data-wow-duration="2s">It is a long established fact that a reader will be distracted.</h1>
+        <button class="btn p-0 wow bounceInUp" data-wow-duration="2s"><a href="#">Read more</a></button>
     </div>
 </section>
 
 
 <!-- category section -->
-<section class="cat-section">
+<section class="cat-section wow slideInRight" data-wow-duration="2s">
     <div class="container">
-
-
-
-
-
 
 
 
@@ -198,10 +216,10 @@
 
 
 <!-- highligted articales -->
-<section class="nest-section">
+<section class="nest-section wow bounceInUp" data-wow-duration="2s">
     <div class="container">
         <h1>Highlighted Article</h1>
-        <div class="row carousel-section owl-carousel pb-5">
+        <div class="row carousel-section owl-carousel pb-5 m-0">
             <!-- post -->
             <div class="col-12">
                 <img src="img/test3.jpg" alt="" class="img-fluid home-recent-img">
@@ -298,7 +316,7 @@
 
 
 <!-- recent articales -->
-<section class="nest-section" style="padding-bottom: 0;">
+<section class="nest-section wow bounceInUp" style="padding-bottom: 0;" data-wow-duration="2s">
     <div class="container">
         <h1>Recent Article</h1>
         <div class="row">
@@ -380,27 +398,21 @@
 </section>
 
 <!-- video section -->
-<!-- <section class="nest-section home-video-section">
+<section class="nest-section home-video-section wow bounceInUp" data-wow-duration="2s">
     <div class="container">
         <h1>videos</h1>
-        <div class="row carousel-section owl-carousel pb-5"> -->
+        <div class="row carousel-section owl-carousel pb-5 m-0">
             <!-- post -->
-
-
-            <!-- <div class="col-12 home-video-inner">
+            <div class="col-12 home-video-inner">
                 <img src="img/test5.jpg" alt="">
                 <a href="#" class="home-colorfull-tag">novel</a>
                 <div class="home-video-title-wraper">
                     <a href="#" class="home-post-title">El poder de la primera persona para captar la atención del lector</a>
                 </div>
                 <a class="home-video-play-wraper" href="#"><i class="fas fa-play"></i></a>
-            </div> -->
-
-
+            </div>
             <!-- post -->
-
-
-            <!-- <div class="col-12 home-video-inner">
+            <div class="col-12 home-video-inner">
                 <img src="img/test8.jpg" alt="">
                 <a href="#" class="home-colorfull-tag">novel</a>
                 <div class="home-video-title-wraper">
@@ -411,21 +423,79 @@
             
         </div>
     </div>
-</section> -->
+</section>
 
 
 
 
 <!-- banner section -->
-<!-- <section class="home-banner-section">
+<section class="home-banner-section">
     <div class="container text-center">
         <a href="#"><img src="img/bannerrayu.jpg" alt="" class="img-fluid"></a>
     </div>
-</section> -->
+</section>
 
 
 
+<!-- best articales -->
+<section class="nest-section home-best-articales" style="padding-bottom: 0;">
+    <div class="container">
+        <h1>Best Article</h1>
+        <div class="row">
+            <!-- post -->
+            <div class="col-lg-6 mb-5 wow slideInLeft" data-wow-duration="1.8s">
+                <img src="img/test3.jpg" alt="" class="img-fluid home-recent-img">
+                <p style="margin-top: 25px;margin-bottom: 15px;" class="home-post-date">Oct 01, 2021</p>
 
+                <a href="#" class="home-post-title">El poder de la primera persona para captar la atención del lector</a>
+                <p class="home-post-des">Was drawing natural fat respect husband. An as noisy an offer drawn blush place. These tried for way joy wrote witty. In mr began music weeks after at begin. Education no dejection so direction pretended household do to....</p>
+            </div>
+            <!-- post -->
+            <div class="col-lg-6 mb-5 wow slideInRight" data-wow-duration="1.8s">
+
+
+                <div class="row mb-5">
+                    <div class="col-4 text-center">
+                        <img class="post-img" src="img/asset 7.jpeg" alt="" class="img-fluid">
+                    </div>
+                    <div class="col-8 pl-0">
+                        <p style="margin-bottom: 10px;" class="home-post-date">Oct 01, 2021</p>
+                        <p style="font-size : clamp(1.2rem, 1.6vw, 5rem);line-height: 35px;" class="home-post-title">Cannot blossom without sunshine, and a man cannot live without love.</p>
+                    </div>
+                </div>
+                <div class="row mb-5">
+                    <div class="col-4 text-center">
+                        <img class="post-img" src="img/asset 7.jpeg" alt="" class="img-fluid">
+                    </div>
+                    <div class="col-8 pl-0">
+                        <p style="margin-bottom: 10px;" class="home-post-date">Oct 01, 2021</p>
+                        <p style="font-size : clamp(1.2rem, 1.6vw, 5rem);line-height: 35px;" class="home-post-title">Cannot blossom without sunshine, and a man cannot live without love.</p>
+                    </div>
+                </div>
+                <div class="row mb-5">
+                    <div class="col-4 text-center">
+                        <img class="post-img" src="img/asset 7.jpeg" alt="" class="img-fluid">
+                    </div>
+                    <div class="col-8 pl-0">
+                        <p style="margin-bottom: 10px;" class="home-post-date">Oct 01, 2021</p>
+                        <p style="font-size : clamp(1.2rem, 1.6vw, 5rem);line-height: 35px;" class="home-post-title">Cannot blossom without sunshine, and a man cannot live without love.</p>
+                    </div>
+                </div>
+                <div class="row mb-5">
+                    <div class="col-4 text-center">
+                        <img class="post-img" src="img/asset 7.jpeg" alt="" class="img-fluid">
+                    </div>
+                    <div class="col-8 pl-0">
+                        <p style="margin-bottom: 10px;" class="home-post-date">Oct 01, 2021</p>
+                        <p style="font-size : clamp(1.2rem, 1.6vw, 5rem);line-height: 35px;" class="home-post-title">Cannot blossom without sunshine, and a man cannot live without love.</p>
+                    </div>
+                </div>
+            
+            </div>
+            
+        </div>
+    </div>
+</section>
 
 
 
@@ -469,10 +539,15 @@
 
 <!-- owl carousel -->
 <script src="js/owl.carousel.min.js"></script>
-<script src="js/owl.main.js"></script>
+
+<!-- wow js script -->
+<script src="js/wow.min.js"></script>
 
 
 
+
+<!-- must be in last -->
+<script src="js/main.js"></script>
 
 
 

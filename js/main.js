@@ -1,3 +1,5 @@
+
+// owl carousel
 $(document).ready(function(){
     $(document).ready(function(){
         $(".owl-carousel").owlCarousel({
@@ -45,7 +47,7 @@ $(document).ready(function(){
     //         }
         
     // });
-    // // iframe ar jonno
+    // iframe ar jonno
     // $('.single-video').magnificPopup({
     //     type: 'iframe',
     //         gallery:{
@@ -53,3 +55,24 @@ $(document).ready(function(){
     //         }
         
     // });
+
+
+// animate js init
+new WOW().init();
+
+
+
+// preoader scrips
+$(document).ready(function(){
+    $(window).on("load", function(){
+        $(".preloader-section").fadeOut()
+    });
+});
+
+
+
+
+
+
+
+

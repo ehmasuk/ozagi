@@ -1,5 +1,7 @@
 
-
+body{
+    overflow-x: hidden;
+}
 *{
     font-family: "Roboto",sans-serif;
     color: #000;
@@ -96,6 +98,7 @@ nav{
     box-shadow: none !important;
     width: 100%;
 }
+
 .nav-item{
     margin-right: 40px;
 }
@@ -608,7 +611,7 @@ nav{
 }
 .home-hero-secion h1{
     font-family: "Playfair Display",sans-serif;
-    font-size: 60px;
+    font-size: clamp(2.9rem, 4.4vw, 4.4vw);
     font-weight: 400;
     color: #000;
     margin: 23px 0px 43px;
@@ -678,7 +681,7 @@ nav{
 .nest-section h1{
     font-family: "Playfair Display", serif;
     font-weight: 400;
-    font-size: 35px;
+    font-size: clamp(30px, 2.56vw, 5rem);
     color: #000;
     text-transform: capitalize;
     margin-bottom: 50px;
@@ -721,10 +724,10 @@ nav{
 }
 .home-post-title{
     font-family:"Playfair Display", serif;
-    font-size: 35px;
+    font-size: clamp(24px, 2.56vw, 2.56vw);
     font-weight: 400;
     color: #000;
-    line-height: 50px;
+    line-height: clamp(35px, 3.66vw, 3.66vw);
 }
 .home-post-title:hover{
     color: #FBAF5D;
@@ -791,66 +794,27 @@ nav{
 .home-video-play-wraper:hover>i{
     transform: rotate(120deg);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* *********************  OWL NAVS AND BUTTONS CSS  ************************ */
-.owl-carousel{
-    position: relative;
-}
-.carousel-section .owl-prev{
-    font-size: 150px !important;
-    color: red !important;
-    position: absolute;
-    top: 40%;
-    transform: translateY(-40%);
-    left: 50px;
-    display: none;
-}
-.carousel-section .owl-next{
-    font-size: 150px !important;
-    color: red !important;
-    position: absolute;
-    top: 40%;
-    transform: translateY(-40%);
-    right: 50px;
-    display: none;
+/* best articales */
+.home-best-articales .post-img{
+    width: 100% !important;
+    height: auto !important;
 }
 
-.carousel-section button:focus{
-    outline: none;
-    border: none;
-}
 
-.carousel-section .owl-dots button {
-    width: 10px;
-    height: 10px;
-    background-color: #DDDDDD !important;
-    margin-right: 10px;
-}
-.carousel-section .owl-dots .active{
-    background-color: #FBAF5D !important;
-}
-.carousel-section .owl-dots{
-    position: absolute;
-    left: 50%;
-    bottom: 0;
-    transform: translateX(-50%);
-}
-/* *********************  OWL NAVS AND BUTTONS CSS END HERE ************************ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -898,11 +862,20 @@ nav{
         margin-left: 0;
     }
     .home-hero-secion h1 {
-        font-size: 48px;
         line-height: 70px;
     }
     .home-hero-secion{
         padding-top: 100px;
         padding-bottom: 100px;
+    }
+    .home-video-title-wraper{
+        padding: 20px 28px;
+    }
+    .home-video-play-wraper {
+        padding: 25px;
+        font-size: 30px;
+    }
+    .home-video-inner{
+        min-height: 400px;
     }
 }

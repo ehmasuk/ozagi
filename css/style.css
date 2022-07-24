@@ -184,7 +184,7 @@ nav{
 
 /* content area */
 .content-section{
-    padding: 120px 0;
+    padding: 40px 0;
 }
 
 /* content */
@@ -673,7 +673,7 @@ nav{
 }
 /* nest-section */
 .nest-section{
-    padding: 80px 0;
+    padding: 40px 0;
 }
 .nest-section .container{
     overflow-x: hidden;
@@ -684,13 +684,12 @@ nav{
     font-size: clamp(30px, 2.56vw, 5rem);
     color: #000;
     text-transform: capitalize;
-    margin-bottom: 50px;
     position: relative;
     z-index: 99;
     background-color: #fff;
     display: inline-block;
 }
-.nest-section h1::before{
+/* .nest-section h1::before{
     position: absolute;
     content: "";
     width: 1200px;
@@ -701,7 +700,7 @@ nav{
     left: 100%;
     z-index: 55;
     margin-left: 30px;
-}
+} */
 .home-recent-img{
     border-radius: 15px;
     width: 100%;
@@ -800,6 +799,16 @@ nav{
     height: auto !important;
 }
 
+.blog-seemore{
+    z-index: 9999;
+    display: inline-block;
+    padding: 3px 10px;
+    color: #000;
+    background-color: #FBAF5D;
+}
+.nest-title{
+    position: relative;
+}
 
 
 
@@ -819,6 +828,17 @@ nav{
 
 
 
+
+
+
+
+
+
+/* ooo */
+/* ooo */
+
+/* ooo */
+/* ooo */
 
 
 
@@ -880,6 +900,6 @@ nav{
         min-height: 400px;
     }
     .nest-section {
-        padding: 30px 0;
+        padding: 20px 0;
     }
 }

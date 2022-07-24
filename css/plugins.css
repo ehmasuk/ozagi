@@ -34,7 +34,7 @@
 
 
 /* preloader */
-.preloader-section{
+/* .preloader-section{
     position: fixed;
     left: 0px;
     top: 0px;
@@ -122,4 +122,4 @@
     50% {
     transform: translateX(-31px);
     }
-}
+} */

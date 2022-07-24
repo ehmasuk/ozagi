@@ -63,11 +63,16 @@ new WOW().init();
 
 
 // preoader scrips
-$(document).ready(function(){
-    $(window).on("load", function(){
-        $(".preloader-section").fadeOut()
-    });
-});
+// $(document).ready(function(){
+//     $(window).on("load", function(){
+//         $(".preloader-section").fadeOut()
+//     });
+// });
+
+// 0000
+// 0000
+// 0000
+
 
 
 
